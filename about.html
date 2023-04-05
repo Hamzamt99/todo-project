@@ -3,66 +3,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/about.css">
+    <title>Resturant</title>
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <div>
-            <a href="index.html"><img src="img/Lamsat-logo.png" alt="" width="100px"></a>
-           </div>
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                </ul>
-            </div>
+        <nav>
+        <img src="img/menu1.jpg" alt="">
+            <ul>
+               <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
+        <img class="img1" src="img/3.png" alt="">
+        <h3 class="h">Hamza Al-Tamary</h3>
         <section>
-            <table style="border:1px solid #dddddd; width: 300px;">
-                <tr>
-                    <th >Name</th>
-                    <th>Age</th>
-                    <th>Hopes</th>
-                    <th>Major</th>
-                </tr>
-                <tr>
-                    <td>Hamza Al-Tamary</td><br>
-                    <td>24</td>
-                    <td>Coding / Playing Video Games</td>
-                    <td>Software Engineer</td>
-                </tr>
-                
-            </table>
+
+         <h3 class="text">Im software engineer who looks to develop his skill and become a professional web developer </h3>
+
+         <h3 class="cont"> Contact Me</h3>
 
         </section><br><br><br>
-        <section>
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text"><br>
-                <label for="email">Email</label>
-                <input type="text"><br>
-                <label for="number">Phone Number</label>
-                <input type="text"><br>
-                <label for="">I agree</label>
-                <input type="checkbox"><br><br>
-                <input type="submit" value="submit">
+            <form>
+                
+                <div class="group">
+                <label for="name"></label>          
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div class="group">
+                <label for="email"></label>
+                <input type="text" id="fname" name="Email" placeholder="Email">
+                </div>
+                <div class="group">
+                <label for="phone"></label>
+                <input type="text" id="fname" name="firstname" placeholder="Phone Number">
+                </div>         
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="message"></label>
+            
             </form>
-        </section>
 
     </main>
     <footer>
-        <div>
-            <a href="/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="/"><i class="fa-brands fa-twitter"></i></a>
-            <a href="/"><i class="fa-brands fa-instagram"></i></a><br>
-            All Right Reserved 2023&copy;                                                                   
-            </div>
+        <div class="footer">
+        <p>&copy;2023 ASAC All Right Reserved</p>                                                                 
+        </div>
+
+    </footer> 
     
-    </footer>
-    <link rel="stylesheet" href="about.css">
     <script src="https://kit.fontawesome.com/770f47bb15.js" crossorigin="anonymous"></script>
 </body>
 </html>
