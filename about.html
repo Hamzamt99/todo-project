@@ -9,43 +9,51 @@
 <body>
     <header>
         <nav>
-        <img src="img/menu1.jpg" alt="">
+            <a href="index.html">
+           <img src="img/logo.png" alt="">
+            </a>
             <ul>
-               <li> <a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
             </ul>
         </nav>
     </header>
     <main>
-        <img class="img1" src="img/3.png" alt="">
-        <h3 class="h">Hamza Al-Tamary</h3>
+        <section>
+
+        <img class='hero' src="img/3.png" alt="">
+
+        <h3 class="hero-p">Hamza Al-Tamary</h3>
+
+    </section>
         <section>
 
          <h3 class="text">Im software engineer who looks to develop his skill and become a professional web developer </h3>
 
          <h3 class="cont"> Contact Me</h3>
 
-        </section><br><br><br>
-            <form>
+        </section>
+        <section>
+          <form class="form-size">
                 
                 <div class="group">
-                <label for="name"></label>          
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="name">Name</label>          
+                <input type="text" id="fname" name="firstname" >
                 </div>
                 <div class="group">
-                <label for="email"></label>
-                <input type="text" id="fname" name="Email" placeholder="Email">
+                <label for="email">Email</label>
+                <input type="text" id="fname" name="Email">
                 </div>
                 <div class="group">
-                <label for="phone"></label>
-                <input type="text" id="fname" name="firstname" placeholder="Phone Number">
-                </div>         
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
-                <label for="message"></label>
-                <input type="submit" value="Send">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="fname" name="number" >
+                </div>  
+                <label for="message">Message</label>       
+                <textarea id="subject" name="subject"></textarea>
+                <input class="btn"type="submit" value="Send">
             
             </form>
-
+        </section>
     </main>
     <footer>
         <div class="footer">
