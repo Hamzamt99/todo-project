@@ -30,11 +30,38 @@ if (confirm("Press Ok to show the welcome message \n Press Cancel to skip it") =
   console.log(gender)
 }
 
-
-// if(gender === 'male') {
- 
-// }else if (gender === 'female'){
-//  alert('Welcome Ms '+ fname)
-// }else{
-//  alert('Welcome '+ fname)
-// }
+questions = (userArray) => {
+    
+    let q1 = prompt("Do you know the function ?")
+  
+    let q2 = prompt("do you know java script ? ")
+    
+    let q3 = prompt("have you ever used css ?")
+  
+     userArray =[q1,q2,q3];
+  
+    return userArray;
+     }
+  
+let userInput = questions();
+      
+// console.log(userInput)
+  
+checkArray = (arr) => {
+  
+    for(let i =0 ; i< arr.length; i++){
+  
+        if(arr[i]== null || arr[i] =='' || arr[i]== undefined ){
+         arr[i]= ("invalid")
+          }
+      }
+      return arr;
+  
+     }
+  
+let checked = checkArray(userInput);
+     
+console.log(checked)
+  
+  
+  
